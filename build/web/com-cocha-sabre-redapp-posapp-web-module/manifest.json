@@ -1,0 +1,49 @@
+{
+  "redappId": "12345",
+  "bundleSymbolicName": "com.cocha.sabre.redapp.posapp",
+  "bundleName": "com-cocha-sabre-redapp-posapp",
+  "name": "com-cocha-sabre-redapp-posapp-web-module",
+  "contactDetails": {
+    "author": "JsConsultores",
+    "email": "walama@jsconsultores.com.pe",
+    "phone": "99999999",
+    "companyName": "JsConsultores",
+    "contactPerson": "jsmith",
+    "website": "www.jsconsultores.com.pe"
+  },
+  "version": "5.8.3",
+  "meta": {},
+  "dependencies": [
+    "sabre-ngv-app",
+    "sabre-ngv-core",
+    "sabre-ngv-xp"
+  ],
+  "workflows": [],
+  "extensions": [],
+  "loading": [],
+  "submodules": [
+    "com-cocha-sabre-redapp-posapp-web-module/buttons/DrawerButtonTarificar",
+    "com-cocha-sabre-redapp-posapp-web-module/buttons/TopBarButtonCocha",
+    "com-cocha-sabre-redapp-posapp-web-module/Context",
+    "com-cocha-sabre-redapp-posapp-web-module/index",
+    "com-cocha-sabre-redapp-posapp-web-module/Main",
+    "com-cocha-sabre-redapp-posapp-web-module/reducers/Reducer",
+    "com-cocha-sabre-redapp-posapp-web-module/redux/interfaces/Action",
+    "com-cocha-sabre-redapp-posapp-web-module/redux/interfaces/State",
+    "com-cocha-sabre-redapp-posapp-web-module/redux/middleware/Saga",
+    "com-cocha-sabre-redapp-posapp-web-module/view/ResultadoTarificar",
+    "com-cocha-sabre-redapp-posapp-web-module/view/Tarificar",
+    "com-cocha-sabre-redapp-posapp-web-module/components/topbarbuttoncochapopover/App",
+    "com-cocha-sabre-redapp-posapp-web-module/components/topbarbuttoncochapopover/tabbar/OpcionTarificar",
+    "com-cocha-sabre-redapp-posapp-web-module/components/topbarbuttoncochapopover/tabbar/Pasajero",
+    "com-cocha-sabre-redapp-posapp-web-module/components/topbarbuttoncochapopover/tabbar/ResultadoTarificar"
+  ],
+  "formats": {
+    "code": [
+      "system"
+    ]
+  },
+  "assets": [],
+  "hasTemplates": true,
+  "hasStyles": true
+}

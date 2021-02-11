@@ -1,0 +1,27 @@
+{
+  "name": "com-cocha-sabre-redapp-posapp-web-module",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "JsConsultores"
+  },
+  "contributors": [],
+  "private": false,
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*",
+      "sabre-ngv-xp": "*"
+    },
+    "buildInfo": {
+      "concierge_version": "5.8.3",
+      "date": "2021-02-10T14:53:02.888Z",
+      "ts": 1612968782888,
+      "rebuildHash": "130f2f0b6c57404d310b0a09985e7a44"
+    }
+  }
+}
